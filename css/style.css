@@ -1,0 +1,181 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+width: 800px;
+margin: 20px auto;
+font-family: 'Abel', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+p {
+  font-size: 14px;
+  color: #202020;
+  padding-top: 4px;
+  padding-bottom: 10px;
+  line-height: 20px;
+
+}
+
+.cvlinks {
+    font-size: 14px;
+  color: red;
+  padding-top: 4px;
+  padding-bottom: 10px;
+  line-height: 18px;
+
+}
+
+
+h3 {
+  padding-bottom: 20px;
+  margin-top: -2px;
+  font-size: 12px;
+  color: #585858;
+
+}
+
+.italic {
+  font-style: italic;
+
+}
+
+.bold {
+  font-size: 18px;
+  color: black;
+  letter-spacing: 1.5px;
+
+}
+
+
+.thumb {
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    transition: all 0.3s ease;
+    padding: 0px;
+}
+
+.thumb:hover {
+        opacity: 0.9;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    transition: all 0.3s ease;
+}
+
+
+
+/* Navigation */
+
+h1 {
+  font-family: 'Quicksand', 'Abel', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 32px;
+  color: black;
+  letter-spacing: 0px;
+  margin-top: 10px;
+  margin-left: -3px;
+  margin-bottom: 19px;
+}
+
+
+h1, a {
+  font-size: 32px;
+  color: black;
+}
+
+nav {
+  margin-top: 0px;
+  color: #202020;
+}
+
+.nav-main {
+  font-size: 22px;
+  color: black;
+  line-height: 30px;
+}
+
+.nav-work {
+  font-size: 14.5px;
+  color: #151515;
+  line-height: 18px;
+}
+
+a:link, a:link:active, a:visited {
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4d4d4d;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/* Columns */
+
+.grid {
+	width: 800px
+}
+
+[class*='col-'] {
+  float: left;
+}
+
+.col-1-4 {
+  width: 170px;
+  margin-left: 30px;
+ }
+
+.col-2-4 {
+  width: 170px;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.col-3-4 {
+  width: 170px;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.col-4-4 {
+  width: 170px;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.col-3 {
+  width: 550px;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+[class*='col-'] {
+  padding-right: 20px;
+}
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+
+
